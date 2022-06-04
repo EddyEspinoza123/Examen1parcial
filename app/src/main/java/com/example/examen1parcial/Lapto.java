@@ -10,6 +10,8 @@ public class Lapto extends SugarRecord<Lapto> {
     String Procesador;
     String Precio;
     //constuctor vacio
+    public Lapto () {
+    }
     public Lapto(String string, String toString, String s){
     }
     //constructor de actividades

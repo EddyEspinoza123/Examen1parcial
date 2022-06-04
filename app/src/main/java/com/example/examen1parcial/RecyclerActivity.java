@@ -9,7 +9,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.example.examen1parcial.adapters.LaptoAdapter;
+//import com.example.examen1parcial.adapters.LaptoAdapter;
 
 import java.util.List;
 
@@ -32,10 +32,10 @@ public class RecyclerActivity extends AppCompatActivity {
                 new LinearLayoutManager(this)
         );
         //Adaptador
-        LaptoAdapter laptoAdapter = new LaptoAdapter(
-                laptoList
-        );
-        recyclerViewLapto.setAdapter(laptoAdapter);
+//        LaptoAdapter laptoAdapter = new LaptoAdapter(
+//                laptoList
+//        );
+//        recyclerViewLapto.setAdapter(laptoAdapter);
 
     }
 }

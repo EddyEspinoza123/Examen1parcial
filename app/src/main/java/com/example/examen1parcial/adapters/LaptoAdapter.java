@@ -13,10 +13,10 @@ import com.example.examen1parcial.R;
 
 import java.util.List;
 
-//public class LaptoAdapter extends RecyclerView.Adapter<LaptoAdapter> {
+//public class LaptoAdapter extends RecyclerView.Adapter<LaptoAdapter.LaptoViewHolder> {
 //    List<Lapto> laptoList;
 //    public LaptoAdapter(List<Lapto> laptoList) {this.laptoList= laptoList;}
-
+//
 //    @Override
 //    public LaptoViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 //        View view = LayoutInflater.from(parent.getContext())
@@ -30,10 +30,10 @@ import java.util.List;
 //        holder.texViewModelo.setText(laptoList.get(position).getModelo());
 //        holder.texViewProcesador.setText(laptoList.get(position).getProcesador());
 //        holder.texViewPrecio.setText(laptoList.get(position).getPrecio());
-
+//    }
 //    @Override
 //    public int getItemCount() { return laptoList.size(); }
-    //clase para el viewholder
+//    //clase para el viewholder
 //    public class LaptoViewHolder extends RecyclerView.ViewHolder{
 //        TextView texViewMarca, texViewAno, texViewModelo, texViewProcesador, texViewPrecio;
 //        public LaptoViewHolder(View itemView){
